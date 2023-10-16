@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -98,8 +100,24 @@ public class Main {
             System.out.println("tiene 30 días");
         }
         // si el numero esta entre 5 y 15 mostrar que te has ganado un ordeador
-
-
+        int valorNumerico =8 ;
+        if (valorNumerico >= 5 && valorNumerico<=15){
+            System.out.println("Usted a ganado un ordenador");
+        }else {
+            System.out.println("Lo sentimos intente la procima vez");
+        }
+        //***** día 16 de octubre del 2023 VARIABLES E INSTANCIAS*****
+        Scanner tecladoEtrada = new Scanner(System.in);
+        System.out.println("escriba su edad");
+        int años = 0;
+        años =tecladoEtrada.nextInt();
+        if (edad<=18){
+            System.out.println("Usted es mayor de edad");
+        }else{
+            System.out.println("usted es menor de edad");
+        }
+        System.out.println("El dato leido es ->" + años);
+//ejercicios de if
 
 
     }

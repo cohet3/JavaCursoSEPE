@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio7if {
     public static void main(String[] args) {
         //7. Pedir tres numeros y mostrarlos ordendos de mayor a menor
         Scanner tecladoEntrada = new Scanner(System.in);

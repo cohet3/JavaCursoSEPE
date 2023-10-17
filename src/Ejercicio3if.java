@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio3if {
     public static void main(String[] args) {
         //3.Pedir un número y decir si es par o impar
         Scanner tecladoEntrada = new Scanner(System.in);
@@ -13,5 +13,6 @@ public class Ejercicio3 {
         }else{
             System.out.println("el numero es impar");
         }
+        tecladoEntrada.close();
     }
 }

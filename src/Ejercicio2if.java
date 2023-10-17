@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio2if {
     public static void main(String[] args) {
         //2.Pedir un numero e indicar si es positivo o negativo
         Scanner tecladoEntrada = new Scanner(System.in);
@@ -13,5 +13,6 @@ public class Ejercicio2 {
         }else{
             System.out.println("el numero es negativo");
         }
+        tecladoEntrada.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EjerciciosIF {
+public class Ejercicio1IF {
     public static void main(String[] args) {
         //1.Pedir dos números y decir si son iguales o no
         Scanner tecladoEntrada = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class EjerciciosIF {
         }else{
             System.out.println("Los numeros no son iguales");
         }
+        tecladoEntrada.close();
 
 
 

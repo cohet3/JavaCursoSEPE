@@ -1,3 +1,5 @@
+package Swittch;
+
 public class CondicionalSwitch {
     public static void main(String[] args) {
 

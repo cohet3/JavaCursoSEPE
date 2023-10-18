@@ -1,3 +1,5 @@
+package Swittch;
+
 import java.util.Scanner;
 
 public class Ejercicio3Switch {
@@ -12,41 +14,32 @@ public class Ejercicio3Switch {
         int anio = sc.nextInt();
 
         boolean fechaValida = false;
-
+        // 31 dias meses 1,3,5,7,8,10,12
+        // 30 dias meses:4,6,9,11
+        //28 dias mes: 2
         switch (mes) {
-            case 1:
-            case 3:
-            case 5:
-            case 7:
-            case 8:
-            case 10:
-            case 12:
-                if (dia >= 1 && dia <= 31) {
+            case 1,3,5,7,8,19,12:
+                if (dia >=1 && dia <= 31){
                     fechaValida = true;
                 }
                 break;
-            case 4:
-            case 6:
-            case 9:
-            case 11:
-                if (dia >= 1 && dia <= 30) {
-                    fechaValida = true;
+            case 4,6,9,11:
+                if (dia >=1 && dia <=30){
+                    fechaValida= true;
                 }
                 break;
             case 2:
-                if (dia >= 1 && dia <= 28) {
-                    fechaValida = true;
+                if (dia >=1 && dia <=28){
+                    fechaValida= true;
                 }
                 break;
-            default:
-                System.out.println("El mes ingresado no es válido.");
-                break;
+        }
+        if(fechaValida){
+            System.out.println("La fecha es valida  " + dia+"-"+mes+"-"+anio);
+        }else{
+            System.out.println("Lafecha es invalida  " + dia+"-"+mes+"-"+anio);
         }
 
-        if (fechaValida) {
-            System.out.println("La fecha ingresada es válida  " +dia +"-" + mes + "-" + anio);
-        } else {
-            System.out.println("La fecha ingresada no es válida  "+dia +"-" + mes + "-" + anio  );
-        }
+
     }
 }

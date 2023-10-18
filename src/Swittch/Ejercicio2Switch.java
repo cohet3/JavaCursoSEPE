@@ -1,3 +1,5 @@
+package Swittch;
+
 import java.util.Scanner;
 
 public class Ejercicio2Switch {

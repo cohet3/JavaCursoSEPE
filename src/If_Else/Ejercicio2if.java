@@ -1,17 +1,19 @@
+package If_Else;
+
 import java.util.Scanner;
 
-public class Ejercicio3if {
+public class Ejercicio2if {
     public static void main(String[] args) {
-        //3.Pedir un número y decir si es par o impar
+        //2.Pedir un numero e indicar si es positivo o negativo
         Scanner tecladoEntrada = new Scanner(System.in);
         int num1 = 0;
 
         num1 = tecladoEntrada.nextInt();
 
-        if (num1 %2==0){
-            System.out.println("el numero es par");
+        if (num1 >=0){
+            System.out.println("el numero es positivo");
         }else{
-            System.out.println("el numero es impar");
+            System.out.println("el numero es negativo");
         }
         tecladoEntrada.close();
     }

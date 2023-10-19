@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class EjerciciosFor {
     public static void main(String[] args) {
-/*       5.	Pedir 10 números. Mostrar la media de los números positivos, la media de los números negativos y la cantidad de ceros.
-        6.	Pedir 10 sueldos. Mostrar su suma y cuantos hay mayores de 1000€.*/
     /*    1.	Pedir un número N, y mostrar todos los números del 1 al N.*/
         //paso 1. declaración de variables
         // primitivas

@@ -7,18 +7,11 @@ public class Ejercicio4For {
         //primitivas
         int producto= 1;
 
-        for (int i = 1; i<= 20; i += 2){
+        for (int i = 1; i<= 10; i += 2){
             System.out.println(i);
             producto *= i;
             System.out.println("Producto ->"+ producto);
         }
 
-        //la tabla del 5
-        for (int y = 1; y==10; y++){
-            System.out.println(y);
-            producto *=y;
-            System.out.println(" tabla 5 ->"+ producto);
-
-        }
     }
 }

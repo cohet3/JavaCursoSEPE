@@ -17,10 +17,11 @@ public class Ejercicio6For {
             suma = sueldos +suma;
             if(sueldos >=  1000) {
                 mayores +=1;
-                System.out.println("Sueldos mayores a 1000€ -> "+mayores);
+
 
             }
             System.out.println("suma total = " + suma);
+            System.out.println("Sueldos mayores a 1000€ -> "+mayores);
         }
     }
 }

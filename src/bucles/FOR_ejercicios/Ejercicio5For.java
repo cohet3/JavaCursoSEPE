@@ -17,7 +17,7 @@ public class Ejercicio5For {
         int entreNegativos= 0;
         //instancia
         Scanner sr = new Scanner(System.in);
-        //bucle
+        //Estructuras de control
 
         for(int i = 1; i <= 10; i++){
             System.out.println("escribe un numero -> ");

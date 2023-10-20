@@ -35,11 +35,26 @@ public class OctubreExamen {
      // instancia
         Scanner sr = new Scanner(System.in);
         System.out.println("introduce el precio");
-        precio = sr.nextDouble();
+//        precio = sr.nextDouble(); esta comentado para que no solicite entrada por consola
         System.out.println("el precio es = "+precio+ " €");
         // mostrar en la consola del 10 al 0
         for (int i = 10; i >=0; i--){
             System.out.println(i);
         }
+        // solicitar por consola el DNI, nombre y dirección mostrar en la consola el texto
+        //declaracion de variables
+        //primitivas
+        String dni = "";
+        String nombre = "";
+        String direccion = "";
+        //Instancia (la clase scanner esta en la linea 36)
+        System.out.println("introduce tu DNI");
+        dni = sr.nextLine();
+        System.out.println("introduce tu nombre");
+        nombre = sr.nextLine();
+        System.out.println("introduce tu dirección");
+        direccion= sr.nextLine();
+        System.out.println(" nombre: "+ nombre + " DNI: "+ dni+ " Dirección: "+ direccion);
+
     }
 }

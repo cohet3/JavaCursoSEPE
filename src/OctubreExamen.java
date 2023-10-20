@@ -7,7 +7,7 @@ public class OctubreExamen {
         int edad = 18;
         double sueldo = 1200;
         char sexo = 'M';
-        System.out.println("edad= "+edad+" años");
+        System.out.println("Edad= "+edad+" años");
         System.out.println("sueldo= "+ sueldo +" €");
         System.out.println("sexo "+sexo);
     }

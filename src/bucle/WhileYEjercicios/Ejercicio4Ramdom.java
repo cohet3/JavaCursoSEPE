@@ -3,7 +3,7 @@ package bucle.WhileYEjercicios;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ejercicio4While {
+public class Ejercicio4Ramdom {
     public static void main(String[] args) {
 //        4. Realizar un juego para adivinar un numero. Calacular el numero a adividar con la clase Ramdom(1al10),
 //        y luego ir pidiendo numeros indicados mayor o menor

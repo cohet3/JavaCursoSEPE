@@ -9,6 +9,5 @@ public class BucleWhile {
         }
     }
 }
-//ejercicios While
-/*
-6. Pedir numeros hasta q se introduzca uno negativo, y calcular la media*/
+
+

@@ -19,7 +19,7 @@ public class Ejercicio4While {
         numeroAleatorio = aleatorio.nextInt(1,10);
         numeroUser = sr.nextInt();
         while (true)
-        if (numeroAleatorio==numeroUser){
+       if (numeroAleatorio==numeroUser){
             System.out.println("ganaste coincide tu numero con el de la maquina == "+numeroAleatorio+" == "+numeroUser+" NUmero user");
             break;
         }else {

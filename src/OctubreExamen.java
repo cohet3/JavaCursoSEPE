@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class OctubreExamen {
     public static void main(String[] args) {
         //Examen octubre
@@ -16,5 +18,16 @@ public class OctubreExamen {
         boolean verdadero = true;
         System.out.println("el apellido es " + apellido);
         System.out.println(verdadero);
+        // 5. Definir una variable númerica para guardar la hora, escribir por la consola buenos dias
+        // si la hora esta entre 0 y 12 y en el resto de los casos buenas noches
+        //primitivas
+        int hora = 6;
+        //instancia
+     if (hora <=12){
+         System.out.println("buenos días");
+     }else {
+         System.out.println("buenas noches");
+     }
+
     }
 }

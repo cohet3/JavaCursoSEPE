@@ -10,5 +10,11 @@ public class OctubreExamen {
         System.out.println("Edad= "+edad+" años");
         System.out.println("Sueldo= "+ sueldo +" €");
         System.out.println("Sexo "+sexo);
+
+        //4. Definir 2 variables una de apellido con el valor "Ruiz" y la otra con el valor verdadero
+        String apellido=  "Ruiz";
+        boolean verdadero = true;
+        System.out.println("el apellido es " + apellido);
+        System.out.println(verdadero);
     }
 }

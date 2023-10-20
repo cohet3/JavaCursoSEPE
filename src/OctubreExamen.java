@@ -9,6 +9,6 @@ public class OctubreExamen {
         char sexo = 'M';
         System.out.println("Edad= "+edad+" años");
         System.out.println("Sueldo= "+ sueldo +" €");
-        System.out.println("sexo "+sexo);
+        System.out.println("Sexo "+sexo);
     }
 }

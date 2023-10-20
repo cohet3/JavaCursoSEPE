@@ -28,6 +28,18 @@ public class OctubreExamen {
      }else {
          System.out.println("buenas noches");
      }
-
+    //6 solicitar por consola el precio de un producto y mostrarlo en la consola. Definir una variable de tipo double con el nombre de precio
+        // declaro variables
+        //primitivas
+        double precio = 0;
+     // instancia
+        Scanner sr = new Scanner(System.in);
+        System.out.println("introduce el precio");
+        precio = sr.nextDouble();
+        System.out.println("el precio es = "+precio+ " €");
+        // mostrar en la consola del 10 al 0
+        for (int i = 10; i >=0; i--){
+            System.out.println(i);
+        }
     }
 }

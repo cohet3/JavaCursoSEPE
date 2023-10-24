@@ -1,3 +1,5 @@
+package ArraysTeoriaEjemplos;
+
 public class Vectores {
     public static void main(String[] args) {
         String identificadorRed = "158.1.3.";

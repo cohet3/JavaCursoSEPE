@@ -1,3 +1,5 @@
+package ArraysTeoriaEjemplos;
+
 import java.util.Scanner;
 
 public class ArraysVectores {

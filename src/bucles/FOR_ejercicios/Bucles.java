@@ -1,3 +1,5 @@
+package bucles.FOR_ejercicios;
+
 import java.util.Scanner;
 
 public class Bucles {

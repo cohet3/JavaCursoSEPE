@@ -1,8 +1,8 @@
-package BucleForEach;
+package BucleFor;
 
 import java.util.Scanner;
 
-public class ForEachTeoria {
+public class ForTeoria {
     public static void main(String[] args) {
         char[] letras = new char [5];
         //definir el scanner

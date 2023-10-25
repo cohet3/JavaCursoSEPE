@@ -1,6 +1,4 @@
-package BucleForEach;
-
-import java.util.Scanner;
+package BucleFor;
 
 public class Ejercicio1Corregido {
     public static void main(String[] args) {

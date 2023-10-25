@@ -1,4 +1,4 @@
-package BucleForEach;
+package BucleFor;
 
 import java.util.Scanner;
 

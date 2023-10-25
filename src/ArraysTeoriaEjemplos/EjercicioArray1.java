@@ -9,8 +9,9 @@ public class EjercicioArray1 {
         char[] vocales= {'a','e','i','o','u'};
 
  //declaracion de variables
- //primitivas
+ //primitivas, instancias, arrays
         int nVocales= 0;
+
         //instancia
         Scanner sc= new Scanner(System.in);
         System.out.println("introduce una frase");
@@ -24,7 +25,7 @@ public class EjercicioArray1 {
               break;
             }
         }
-        System.out.println("La frase tiene " + nVocales + " vocales.");
+        System.out.println("La frase tiene " + nVocales + " vocales. ");
 
 
 

@@ -1,10 +1,10 @@
 package com.coreNetWork.presentacion;
 
-import com.coreNetWork.modelos.Proveedor;
+import com.coreNetWork.modelos.Proveedor_getters_setters;
 
-public class PruebaProveedor {
+public class PruebaProveedor_getters_setters {
     public static void main(String[] args) {
-        Proveedor p1= new Proveedor();
+        Proveedor_getters_setters p1= new Proveedor_getters_setters();
         p1.setIdProveedor(11);
         p1.setNombre("Mahuo");
         p1.setTelefono("66666666");

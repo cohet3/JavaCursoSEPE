@@ -1,6 +1,6 @@
 package com.coreNetWork.modelos;
 
-public class Producto {
+public class Producto_getters_setters {
     //Atributos
      private int idProducto;
     private String nombre;

@@ -1,6 +1,6 @@
 package com.coreNetWork.modelos;
 
-public class Proveedor {
+public class Proveedor_getters_setters {
     private int idProveedor;
     private String nombre;
     private String telefono;

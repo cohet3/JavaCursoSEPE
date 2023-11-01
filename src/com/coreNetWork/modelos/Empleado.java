@@ -8,8 +8,27 @@ public class Empleado {
     private double ventas;
     private double porcentajeComision;
     //2. metodos
-    //+calcularSueldo():double Sueldo incrementar la comision(ventas por porcentajede comision)
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "idEmpleado=" + idEmpleado +
+                ", sueldo=" + sueldo +
+                ", dni='" + dni + '\'' +
+                ", ventas=" + ventas +
+                ", porcentajeComision=" + porcentajeComision +
+                '}';
+    }
+
+    //+calcularSueldo():double Sueldo incrementar la comision(ventas por porcentaje de comision)
+    public void calcularSueldo(){
+
+        sueldo= sueldo+this.ventas * this.porcentajeComision;
+    }
     //+calcularImpuesto(:double ->calcular el sueldo *3
+    public void calcularImpuesto(){
+        sueldo= sueldo*3;
+    }
     //3. constructores
 
     public Empleado() {

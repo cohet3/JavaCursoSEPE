@@ -8,15 +8,15 @@ public class Ejercicio1Pag6 {
         Scanner sc= new Scanner(System.in);
         double a,b,c; // coeficientes ax^2+bx+c=0
         double x1,x2,d; // soluciones y determinante
-        double Entrada = sc.nextDouble();
+
         System.out.println("Introduzca primer coeficiente (a):");
-        a=Entrada;
+        a=sc.nextDouble();
         sc.nextLine();
         System.out.println("Introduzca segundo coeficiente: (b):");
-        b=Entrada;
+        b=sc.nextDouble();
         sc.nextLine();
         System.out.println("Introduzca tercer coeficiente: (c):");
-        c=Entrada;
+        c=sc.nextDouble();
         sc.nextLine();
         // calculamos el determinante
         d=((b*b)-4*a*c);

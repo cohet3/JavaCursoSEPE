@@ -9,6 +9,7 @@ public class Empleado {
     private double ventas;
     private double porcentajeComision;
     //2. metodos
+
     //+calcularSueldo():double Sueldo incrementar la comision(ventas por porcentajede comision)
     public double calcularSueldo(){
         return sueldo +(ventas * porcentajeComision);
@@ -27,6 +28,7 @@ public class Empleado {
                 ", ventas=" + ventas +
                 ", porcentajeComision=" + porcentajeComision +
                 '}';
+
     }
     //3. constructores
 

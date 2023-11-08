@@ -8,6 +8,9 @@ public class Empleado {
     private String nombre;
     private double ventas;
     private double porcentajeComision;
+
+    public Empleado(int i, int i1, String s, String pepito, double v) {
+    }
     //2. metodos
 
     //+calcularSueldo():double Sueldo incrementar la comision(ventas por porcentajede comision)

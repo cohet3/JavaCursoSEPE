@@ -1,6 +1,6 @@
 package InterfaceComoAtributo.Modelo;
 
-public class Coche1 {
+public class Coche1 implements IVehiculo {
     private int deposito;
     //metodo+moverse(:string-< solo en caso de tener gasolina en el deposito
     public String moverse(){

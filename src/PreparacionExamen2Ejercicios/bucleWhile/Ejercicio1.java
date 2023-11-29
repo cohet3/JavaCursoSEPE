@@ -5,7 +5,7 @@ public class Ejercicio1 {
 //        Calcular el factorial de 25
         //1. declaración de variables
         int num= 25;
-        int factorial= 1;
+        long factorial= 1;
         while (num> 0){
             factorial *= num;
             num--;

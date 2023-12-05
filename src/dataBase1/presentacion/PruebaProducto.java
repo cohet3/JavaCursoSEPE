@@ -1,6 +1,6 @@
 package dataBase1.presentacion;
 
-import dataBase1.modelo.Producto;
+import dataBase1.modelo.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class PruebaProducto{
 
         Factura f1 = new Factura();
         f1.setImpuesto(general);
-        f1.setProductos(productos);
+        f1.setProdcutos(productos);
         System.out.println("IVA general " + f1.calcularTotalFactura());
         f1.setImpuesto(reducido);
         System.out.println("IVA reducido " + f1.calcularTotalFactura());

@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Ejercicio2Arrays {
     public static void main(String[] args) {
 //        crear un bloque de codigo que lea las componentes de un array de enteros y me pinte cuales son pares,
-//        cuales los impares y cuales son multiplos de tres
+//        cuales los impares y cuales son múltiplos de tres
         //para este ejercicio utilizaremos un bucle que recorra el array y utilizar el operador %
-        //variables
+        //variable
         int [] numeros = new int[5];
         Scanner sc = new Scanner(System.in);
 

@@ -3,23 +3,19 @@ package ConexionBBDD.modelo;
 import java.util.Objects;
 
 public class Producto {
-    private int product_id;
-    private int product_name;
-    private int unit_price;
-    private int units_in_stock;
-    private int quantity_per_unit;
-
-
+    private int idProducto;
+    private String nombreProducto;
+    private double precioUnitario;
+    private int unidadesStock;
 
     @Override
     public String toString() {
         return "Producto{" +
-                "product_id=" + product_id +
-                ", product_name=" + product_name +
-                ", unit_price=" + unit_price +
-                ", units_in_stock=" + units_in_stock +
-                ", quantity_per_unit=" + quantity_per_unit +
-                '}'+"\n";
+                "idProducto=" + idProducto +
+                ", nombreProducto='" + nombreProducto + '\'' +
+                ", precioUnitario=" + precioUnitario +
+                ", unidadesStock=" + unidadesStock +
+                '}'+ "\n";
     }
 
     @Override
@@ -27,62 +23,53 @@ public class Producto {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Producto producto = (Producto) o;
-        return product_id == producto.product_id && product_name == producto.product_name && unit_price == producto.unit_price && units_in_stock == producto.units_in_stock && quantity_per_unit == producto.quantity_per_unit;
+        return idProducto == producto.idProducto && Double.compare(precioUnitario, producto.precioUnitario) == 0 && unidadesStock == producto.unidadesStock && Objects.equals(nombreProducto, producto.nombreProducto);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(product_id, product_name, unit_price, units_in_stock, quantity_per_unit);
+        return Objects.hash(idProducto, nombreProducto, precioUnitario, unidadesStock);
     }
 
-    public Producto(int productId, String productName, double unitPrice, int unitsInStock) {
+    public Producto() {
     }
 
-    public Producto(int product_id, int product_name, int unit_price, int units_in_stock, int quantity_per_unit) {
-        this.product_id = product_id;
-        this.product_name = product_name;
-        this.unit_price = unit_price;
-        this.units_in_stock = units_in_stock;
-        this.quantity_per_unit = quantity_per_unit;
+    public Producto(int idProducto, String nombreProducto, double precioUnitario, int unidadesStock) {
+        this.idProducto = idProducto;
+        this.nombreProducto = nombreProducto;
+        this.precioUnitario = precioUnitario;
+        this.unidadesStock = unidadesStock;
     }
 
-    public int getProduct_id() {
-        return product_id;
+    public int getIdProducto() {
+        return idProducto;
     }
 
-    public void setProduct_id(int product_id) {
-        this.product_id = product_id;
+    public void setIdProducto(int idProducto) {
+        this.idProducto = idProducto;
     }
 
-    public int getProduct_name() {
-        return product_name;
+    public String getNombreProducto() {
+        return nombreProducto;
     }
 
-    public void setProduct_name(int product_name) {
-        this.product_name = product_name;
+    public void setNombreProducto(String nombreProducto) {
+        this.nombreProducto = nombreProducto;
     }
 
-    public int getUnit_price() {
-        return unit_price;
+    public double getPrecioUnitario() {
+        return precioUnitario;
     }
 
-    public void setUnit_price(int unit_price) {
-        this.unit_price = unit_price;
+    public void setPrecioUnitario(double precioUnitario) {
+        this.precioUnitario = precioUnitario;
     }
 
-    public int getUnits_in_stock() {
-        return units_in_stock;
+    public int getUnidadesStock() {
+        return unidadesStock;
     }
 
-    public void setUnits_in_stock(int units_in_stock) {
-        this.units_in_stock = units_in_stock;
-    }
-
-    public int getQuantity_per_unit() {
-        return quantity_per_unit;
-    }
-
-    public void setQuantity_per_unit(int quantity_per_unit) {
-        this.quantity_per_unit = quantity_per_unit;
+    public void setUnidadesStock(int unidadesStock) {
+        this.unidadesStock = unidadesStock;
     }
 }

@@ -13,6 +13,10 @@ public class Producto {
         this.precio = precio;
     }
 
+    public Producto(int idProducto, String nombre, double precio, int unidades) {
+
+    }
+
     @Override
     public String toString() {
         return "Producto{" +

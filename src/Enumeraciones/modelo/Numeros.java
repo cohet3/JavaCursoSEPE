@@ -1,5 +1,7 @@
 package Enumeraciones.modelo;
 
+import nauticoBBDD.modelo.socio;
+
 public enum Numeros {
     as,
     dos,
@@ -14,5 +16,9 @@ public enum Numeros {
     jota,
     q,
     k,
+    ;
 
+    public String alta(socio s) {
+        return null;
+    }
 }

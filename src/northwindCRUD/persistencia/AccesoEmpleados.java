@@ -77,4 +77,5 @@ public class AccesoEmpleados extends Conexion{
         //5. Devolver el resultado
         return resultado > 0;
     }
+    //Cuando un metodo lleva varios tipos de parametros decimos que esta sobrecargado
 }

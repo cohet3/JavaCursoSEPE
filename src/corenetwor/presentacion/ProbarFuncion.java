@@ -1,11 +1,11 @@
 package corenetwor.presentacion;
 
-import com.corenetwork.persistencia.AccesoFunciones;
+
 
 import java.sql.SQLException;
 
 public class ProbarFuncion {
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         AccesoFunciones aF1 = new AccesoFunciones();
         try {
             System.out.println("Cantidad en existencia ->" + aF1.probarFuncion());
@@ -20,6 +20,6 @@ public class ProbarFuncion {
             System.out.println(e.toString());
         } catch (ClassNotFoundException e) {
             System.out.println(e.toString());
-        }
+        }*/
     }
-}
+

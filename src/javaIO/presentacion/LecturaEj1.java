@@ -2,19 +2,16 @@ package javaIO.presentacion;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class ProbarFileReader
-{
+public class LecturaEj1 {
     public static void main(String[] args) {
         //definir variables
         char[] buffer = new char[128];
         int caracterLeido;
         try {
-            FileReader fEntrada= new FileReader("salida.txt");
+            FileReader fEntrada= new FileReader("frase.txt");
             caracterLeido = fEntrada.read(buffer);
             System.out.println("Caracteres leidos -> "+caracterLeido);
             System.out.println(Arrays.toString(buffer));

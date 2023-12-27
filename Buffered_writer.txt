@@ -1,0 +1,3 @@
+usando bufferedWriter ...
+linea 2
+linea 3

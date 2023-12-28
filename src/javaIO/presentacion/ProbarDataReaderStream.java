@@ -1,8 +1,11 @@
 package javaIO.presentacion;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
-public class ejercicio8LecturaFIleOutPut {
+public class ProbarDataReaderStream {
     public static void main(String[] args) {
         FileInputStream fEntrada;
         DataInputStream dato;

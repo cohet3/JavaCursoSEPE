@@ -10,23 +10,15 @@ public class Ropa implements Serializable {
     private int numPrendas;
     //2. metodos
     public String probar(){
-        return "Se esta probando";
-    };
+        return "La ropa se está probando ....";
+    }
     public String desinfectar(){
-        return "se esta desinfectando";
-    };
-    public String vender(){
-        return "Se esta vendiendo";
-    };
-    //meteodos en comun
+        return "La ropa se está desinfectando ...";
+    }
 
-    public double getPrecio() {
-        return precio;
+    public String vender(){
+        return "La ropa se está vendiendo ...";
     }
-    public String getProveedor(){
-        return proveedor;
-    }
-    //metodos generados automaticamente
 
     @Override
     public String toString() {
@@ -36,24 +28,20 @@ public class Ropa implements Serializable {
                 ", numPrendas=" + numPrendas +
                 '}';
     }
+    //3.Constructores
 
 
-    //3.constructores
 
-    public Ropa() {
+    public double getPrecio() {
+        return precio;
     }
-
-    public Ropa(double precio, String proveedor, int numPrendas) {
-        this.precio = precio;
-        this.proveedor = proveedor;
-        this.numPrendas = numPrendas;
-    }
-
-//4.gettersy setters
-
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    public String getProveedor() {
+        return proveedor;
     }
 
     public void setProveedor(String proveedor) {

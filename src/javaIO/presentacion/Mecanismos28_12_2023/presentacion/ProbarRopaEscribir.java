@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 public class ProbarRopaEscribir {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         //1.declarar variables
         FileOutputStream fSalida;
         ObjectOutputStream objeto;
@@ -48,5 +48,5 @@ public class ProbarRopaEscribir {
         }
 
 
-    }
+    }*/
 }

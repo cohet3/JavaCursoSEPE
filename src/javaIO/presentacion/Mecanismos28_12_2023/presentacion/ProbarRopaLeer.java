@@ -7,7 +7,7 @@ import javaIO.presentacion.Mecanismos28_12_2023.modelo.Zapatos;
 import java.io.*;
 
 public class ProbarRopaLeer {
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         //1. declarar variables
         FileInputStream fEntrada;
         ObjectInputStream objeto;
@@ -37,5 +37,5 @@ public class ProbarRopaLeer {
         } catch (ClassNotFoundException e) {
             System.out.println(e.toString());
         }
-    }
+    }*/
 }

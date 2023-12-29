@@ -1,6 +1,6 @@
 package javaIO.presentacion.Mecanismos28_12_2023.modelo;
 
-public class Zapatos extends Ropa {
+public class Zapatos  {
     //1 atributos
     private int tamanioTacon;
 
@@ -10,25 +10,5 @@ public class Zapatos extends Ropa {
     }
     //3. constructores
 
-    public Zapatos() {
-    }
 
-    public Zapatos(int tamanioTacon) {
-        this.tamanioTacon = tamanioTacon;
-    }
-
-    public Zapatos(double precio, String proveedor, int numPrendas, int tamanioTacon) {
-        super(precio, proveedor, numPrendas);
-        this.tamanioTacon = tamanioTacon;
-    }
-
-//4. getters y setters
-
-    public int getTamanioTacon() {
-        return tamanioTacon;
-    }
-
-    public void setTamanioTacon(int tamanioTacon) {
-        this.tamanioTacon = tamanioTacon;
-    }
 }

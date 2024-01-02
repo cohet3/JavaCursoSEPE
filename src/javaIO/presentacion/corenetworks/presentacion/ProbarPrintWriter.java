@@ -1,7 +1,6 @@
-package com.corenetworks.presentacion;
+package javaIO.presentacion.corenetworks.presentacion;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 

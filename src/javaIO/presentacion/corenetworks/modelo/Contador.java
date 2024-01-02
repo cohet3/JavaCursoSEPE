@@ -1,8 +1,8 @@
-package com.corenetworks.modelo;
+package javaIO.presentacion.corenetworks.modelo;
 
-import lombok.Data;
+/*import lombok.Data;
 
-@Data
+@Data*/
 public class Contador {
     //1.Atributos
     public static int contador;

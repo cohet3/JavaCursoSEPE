@@ -1,7 +1,7 @@
 /*
  Put header here
  */
-package com.corenetworks;
+package javaIO.presentacion.corenetworks;
 
 
 public class frameOne extends javax.swing.JFrame {

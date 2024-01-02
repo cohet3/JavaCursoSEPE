@@ -1,4 +1,4 @@
-package com.corenetworks.modelo;
+package javaIO.presentacion.corenetworks.modelo;
 
 public class Calculadora {
     //1.Atributos

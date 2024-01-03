@@ -1,6 +1,7 @@
 package javaIO.presentacion.corenetworks.presentacion;
 
-import com.corenetworks.modelo.Contador;
+
+import javaIO.presentacion.corenetworks.modelo.Contador;
 
 public class ProbarContador {
     public static void main(String[] args) {

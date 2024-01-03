@@ -1,6 +1,7 @@
 package javaIO.presentacion.corenetworks.presentacion;
 
-import com.corenetworks.modelo.CalculadoraMonetaria;
+
+import javaIO.presentacion.corenetworks.modelo.CalculadoraMonetaria;
 
 public class ProbarCalculadoraMonetaria {
     public static void main(String[] args) {

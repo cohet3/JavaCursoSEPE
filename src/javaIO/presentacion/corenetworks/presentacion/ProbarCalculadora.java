@@ -1,6 +1,7 @@
 package javaIO.presentacion.corenetworks.presentacion;
 
-import com.corenetworks.modelo.Calculadora;
+
+import javaIO.presentacion.corenetworks.modelo.Calculadora;
 
 public class ProbarCalculadora {
     public static void main(String[] args) {

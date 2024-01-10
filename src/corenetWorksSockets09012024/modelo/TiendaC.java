@@ -1,12 +1,12 @@
 package corenetWorksSockets09012024.modelo;
 
-import lombok.AllArgsConstructor;
+/*import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Data*/
 public class TiendaC {
     private int id;
     private String nombre;

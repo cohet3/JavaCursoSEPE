@@ -2,7 +2,7 @@ package javaIO.presentacion;
 
 import java.io.*;
 
-public class ejercicio8LecturaFIleOutPut {
+public class ejercicio8LecturaFIleInputStream {
     public static void main(String[] args) {
         FileInputStream fEntrada;
         DataInputStream dato;

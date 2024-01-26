@@ -1,5 +1,6 @@
 package BancoBD_crud.presentacion.cajero;
 
+/*
 import com.BancoBD_crud.persistencia.AccesoCuentaBancaria;
 
 import java.sql.SQLException;
@@ -19,3 +20,4 @@ public class ProbarSaldo {
         }
 
     }}
+*/

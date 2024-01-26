@@ -1,4 +1,4 @@
-package com.corenetworks.presentacion;
+package Repaso12_01_2024.corenetworks.presentacion;
 
 import java.util.Arrays;
 import java.util.Scanner;

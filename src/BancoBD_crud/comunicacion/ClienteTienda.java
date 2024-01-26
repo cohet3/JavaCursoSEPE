@@ -1,6 +1,6 @@
 package BancoBD_crud.comunicacion;
 
-import com.BancoBD_crud.modelo.TiendaC;
+/*import com.BancoBD_crud.modelo.TiendaC;*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ClienteTienda {
 
 
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
             // 1. Solicitar los datos de las tiendas
             TiendaC t1 = solicitarDatosVenta();
             try {
@@ -44,6 +44,6 @@ public class ClienteTienda {
             return t1;
 
         }
-
+*/
     }
 

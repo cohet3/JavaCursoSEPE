@@ -21,7 +21,7 @@ public class Conexion {
     public Conexion() {
     }
 
-    //4 Setters yGetters
+
 
 }
 

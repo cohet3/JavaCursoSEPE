@@ -94,8 +94,6 @@ public class ClienteCajero {
         }
         cB1.setTipoOperacion(Integer.toString(tipoOperacion));
         return cB1;
-
-
     }
 }
 */
